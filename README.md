@@ -12,7 +12,7 @@ Proyek ini dibuat untuk mendokumentasikan hasil pengerjaan tugas-tugas pengolaha
 
 Untuk menjalankan program di repository ini, Anda bisa menggunakan salah satu dari metode berikut:
 
-- **Google Colab**
+- **Google Colab**: [Akses Link Google Drive/Colab](https://drive.google.com/drive/folders/15_YaVEdsjsAl9R0EyXDeNdHehfBkQd60?usp=sharing)
 - **Lokal**: [Python 3.x](https://www.python.org/) & [Jupyter Notebook](http://jupyter.org/install)
 
 Daftar pustaka (libraries) yang digunakan:
@@ -61,6 +61,8 @@ _(Daftar jobsheet akan terus diperbarui seiring berjalannya semester)_
 ## 🚀 Cara Menjalankan
 
 ### ☁️ Google Colab
+
+**Akses Cepat:** [Buka Folder Google Drive (Colab)](https://drive.google.com/drive/folders/15_YaVEdsjsAl9R0EyXDeNdHehfBkQd60?usp=sharing)
 
 1. Buka [Google Colab](https://colab.research.google.com/).
 2. Pilih tab **GitHub**.
