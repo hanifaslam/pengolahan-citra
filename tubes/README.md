@@ -1,6 +1,6 @@
 # Face Attendance Project
 
-Project ini memakai `face_recognition` dan `OpenCV` untuk mendeteksi wajah dari webcam dan mencatat kehadiran ke `Attendance.csv`.
+Project ini memakai `face_recognition` dan `OpenCV` untuk mendeteksi wajah dari webcam dan mencatat kehadiran ke file CSV harian (contoh: `Attendance_YYYY-MM-DD.csv`).
 
 ## Menjalankan Project
 
@@ -36,15 +36,16 @@ Kalau tidak ingin mengaktifkan `venv` secara manual, bisa langsung pakai:
 
 ## Kontrol Webcam
 
+- Tekan `r` untuk mendaftarkan wajah baru (akan muncul dialog untuk memasukkan nama, dan wajah otomatis tersimpan)
 - Tekan `q` untuk menutup webcam
 - Wajah yang cocok dengan data training akan diberi nama
 - Wajah yang tidak cocok akan dilabeli `Unknown`
 
 ## Folder dan File Penting
 
-- `ImagesAttendance/` untuk gambar wajah referensi attendance
+- `ImagesAttendance/` untuk gambar wajah referensi attendance (gambar dari registrasi baru akan otomatis disimpan ke sini)
 - `ImageBasic/` untuk gambar latihan pada `basic.py`
-- `Attendance.csv` untuk hasil absensi
+- `Attendance_YYYY-MM-DD.csv` untuk hasil absensi harian yang dicatat secara otomatis
 
 ## Install Ulang Dependency
 
